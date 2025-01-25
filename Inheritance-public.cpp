@@ -5,9 +5,10 @@ using namespace std;
 class student{
     private:char name[20];
             int usn;
+
     protected:void setname(char *ptr){strcpy(name,ptr);}
               void setusn(int x){usn=x;}
-    
+
     public: char * getname(){return name;}
             int getusn(){return usn;}
 };
