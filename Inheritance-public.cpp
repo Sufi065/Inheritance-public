@@ -25,12 +25,9 @@ class strength : public student{
                setname(ptr);
                setusn(r);
                weight=w;
-               height=h;
-               
+               height=h;    
            }
-    
-    
-};
+    };
 int main()
 {
     strength s;
@@ -39,6 +36,5 @@ int main()
     cout<<"USN is:-"<<s.getusn()<<endl;
     cout<<"Heghit is:-"<<s.getheight()<<"cm"<<endl;
     cout<<"weghit is:-"<<s.getweight()<<"kg"<<endl;
-
     return 0;
 }
