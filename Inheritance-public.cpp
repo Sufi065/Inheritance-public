@@ -31,6 +31,7 @@ class strength : public student{
     };
 int main()
 {
+    
     strength s;
     s.setstudent("Sufi",19,176,58);
     cout<<"Name is:-"<<s.getname()<<endl;
@@ -38,4 +39,5 @@ int main()
     cout<<"Heghit is:-"<<s.getheight()<<"cm"<<endl;
     cout<<"weghit is:-"<<s.getweight()<<"kg"<<endl;
     return 0;
+    
 }
